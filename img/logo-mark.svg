@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Elevated Estates Media">
+  <style>
+    .ink { fill: none; stroke: #1c1b19; stroke-linecap: round; stroke-linejoin: round; }
+    @media (prefers-color-scheme: dark) { .ink { stroke: #f1ede4; } }
+  </style>
+  <!-- soft roofline -->
+  <path class="ink" d="M11 37 L29.2 21.6 Q32 19.4 34.8 21.6 L53 37" stroke-width="5.5"/>
+  <!-- gentle closed-eye / smile curve -->
+  <path class="ink" d="M23 44 Q32 50.5 41 44" stroke-width="4.5"/>
+  <!-- golden sun -->
+  <circle cx="49" cy="15" r="6.5" fill="#e8b923"/>
+</svg>
