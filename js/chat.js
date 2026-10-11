@@ -30,38 +30,38 @@
       closeLabel: "Close chat",
       placeholder: "Type a message…",
       send: "Send",
-      greet: "Hi! I'm the EEM Assistant, an automated helper for Elevated Estates Media, coming soon. I can answer questions about packages, the service area and how it works, or help you put together a shoot request. Fabrizzio replies personally by email.",
-      hello: "Hello! How can I help you today?",
+      greet: "Hi! Coming soon. Ask me about packages, service area, or request a shoot.",
+      hello: "Hi! How can I help?",
       c_packages: "Packages & prices", c_area: "Service area", c_how: "How it works", c_request: "Request a shoot",
-      packagesIntro: "Here are the packages:",
-      pk_basic: "Aerial Basic – $149: 10 edited aerial photos, unbranded MLS version, 24-hour delivery.",
-      pk_video: "Aerial + Video – $279: everything in Aerial Basic plus a 60-second video with music (unbranded MLS version and a branded version for social media).",
-      pk_sunset: "Sunset – $399: Aerial + Video during golden hour, plus 3 sunset photos.",
-      pk_wholesale: "Wholesale for photographers – $110: 10 unbranded aerial photos delivered under the photographer's name, 24-hour delivery.",
-      area: "Based in Schaumburg, IL and serving nearby suburbs: Hoffman Estates, Palatine, Arlington Heights, Elk Grove Village, Rolling Meadows, Streamwood, Hanover Park and Roselle. If your listing is close by but not on the list, send a request and Fabrizzio will let you know.",
-      townYes: "Yes, {town} is in the service area.",
-      how: "It's simple:\n1. Request – send the address, package and any notes.\n2. Schedule – shoots happen on weekends (Saturdays and Sundays, daytime).\n3. Shoot – the property is captured from the air.\n4. Delivery – edited files within 24 hours of the flight.\nEvery flight depends on weather and site conditions and is always at the pilot's discretion.",
-      when: "Shoots are scheduled on weekends, Saturdays and Sundays during daytime. Edited files are delivered within 24 hours of the flight. Send a request with your preferred date and Fabrizzio will reply to confirm availability.",
-      weather: "Every flight depends on weather, location and site conditions, and whether it takes place is always at the pilot's discretion. If a flight can't happen, Fabrizzio will work with you on another option.",
-      human: "I'm an automated assistant, not a person. To reach Fabrizzio, send a request here or email {email} and he'll reply personally.",
-      thanks: "You're welcome! Anything else I can help with?",
-      fallback: "Sorry, I'm a simple assistant and didn't catch that. I can tell you about packages, the service area or how it works, or take your request so Fabrizzio can reply by email.",
+      packagesIntro: "Packages:",
+      pk_basic: "Aerial Basic – $149: 10 edited aerial photos, MLS version, 24h delivery.",
+      pk_video: "Aerial + Video – $279: Basic + 60s video with music (MLS + branded social).",
+      pk_sunset: "Sunset – $399: Aerial + Video at golden hour + 3 sunset photos.",
+      pk_wholesale: "Wholesale for photographers – $110: 10 unbranded aerial photos under your name, 24h delivery.",
+      area: "Schaumburg, Hoffman Estates, Palatine, Arlington Heights, Elk Grove Village, Rolling Meadows, Streamwood, Hanover Park and Roselle.",
+      townYes: "Yes, we cover {town}.",
+      how: "1. Send a request\n2. We schedule a weekend daytime shoot\n3. We fly, weather permitting\n4. Edited files within 24h of the flight",
+      when: "Weekends, daytime. Files within 24h of the flight.",
+      weather: "Flights depend on weather and site conditions, at the pilot's discretion.",
+      human: "I'm an automated assistant. Send a request or email {email} and we'll reply.",
+      thanks: "You're welcome!",
+      fallback: "Sorry, I didn't get that. Try one of these:",
       more: "Anything else?",
       backendErr: "",
       // request flow
-      r_start: "Great, let's put your request together. You can cancel at any time. What's your name?",
-      r_email: "Thanks, {name}! What's your email address?",
-      r_emailBad: "That doesn't look like a valid email address. Could you check it?",
-      r_phone: "Phone number? (optional)",
-      r_address: "What's the property address or city?",
-      r_package: "Which package are you interested in?",
-      r_date: "Preferred weekend date? Shoots happen on Saturdays and Sundays during daytime. This is only a preference, not a booking.",
-      r_notes: "Any notes about the listing? (optional)",
-      r_required: "This one is needed for the request.",
-      r_summary: "Here's your request. Please check it:",
+      r_start: "Great! Your name?",
+      r_email: "Thanks, {name}. Your email?",
+      r_emailBad: "That email doesn't look right. Try again?",
+      r_phone: "Phone? (optional)",
+      r_address: "Property address or city?",
+      r_package: "Which package?",
+      r_date: "Preferred weekend date? (just a preference, not a booking)",
+      r_notes: "Any notes? (optional)",
+      r_required: "This one is required.",
+      r_summary: "Your request:",
       r_sendBtn: "Send by email", r_restart: "Start over", skip: "Skip", cancel: "Cancel",
-      r_done: "Your email app should open with the request ready to send to {email}. Once it's sent, Fabrizzio will reply to confirm availability. Nothing is scheduled until he confirms.",
-      r_cancel: "No problem, the request was cancelled. Anything else I can help with?",
+      r_done: "Ready! Your email app will open with the request. We'll reply to confirm availability.",
+      r_cancel: "Cancelled. Anything else?",
       unsure: "Not sure yet",
       L: { name: "Name", email: "Email", phone: "Phone", address: "Property", package: "Package", date: "Preferred date", notes: "Notes" },
       subject: "Shoot request – {address}",
@@ -74,37 +74,37 @@
       closeLabel: "Cerrar chat",
       placeholder: "Escribe un mensaje…",
       send: "Enviar",
-      greet: "¡Hola! Soy el Asistente EEM, un asistente automático de Elevated Estates Media, que llega muy pronto. Puedo responder preguntas sobre los paquetes, la zona de servicio y cómo funciona, o ayudarte a preparar una solicitud de sesión. Fabrizzio responde personalmente por correo electrónico.",
-      hello: "¡Hola! ¿En qué puedo ayudarte?",
+      greet: "¡Hola! Muy pronto. Pregúntame por paquetes, zona o pide una sesión.",
+      hello: "¡Hola! ¿En qué te ayudo?",
       c_packages: "Paquetes y precios", c_area: "Zona de servicio", c_how: "Cómo funciona", c_request: "Solicitar una sesión",
-      packagesIntro: "Estos son los paquetes:",
-      pk_basic: "Aéreo Básico – $149: 10 fotos aéreas editadas, versión MLS sin marca, entrega en 24 horas.",
-      pk_video: "Aéreo + Video – $279: todo lo del Aéreo Básico más un video de 60 segundos con música (versión MLS sin marca y versión con marca para redes sociales).",
-      pk_sunset: "Atardecer – $399: Aéreo + Video durante la hora dorada, más 3 fotos al atardecer.",
-      pk_wholesale: "Mayorista para fotógrafos – $110: 10 fotos aéreas sin marca entregadas a nombre del fotógrafo, entrega en 24 horas.",
-      area: "Estamos en Schaumburg, IL y atendemos los suburbios cercanos: Hoffman Estates, Palatine, Arlington Heights, Elk Grove Village, Rolling Meadows, Streamwood, Hanover Park y Roselle. Si tu propiedad está cerca pero no aparece en la lista, envía una solicitud y Fabrizzio te dirá si es posible.",
-      townYes: "Sí, {town} está dentro de la zona de servicio.",
-      how: "Es sencillo:\n1. Solicitud: envía la dirección, el paquete y cualquier detalle.\n2. Agenda: las sesiones se hacen los fines de semana (sábados y domingos, de día).\n3. Sesión: se captura la propiedad desde el aire.\n4. Entrega: archivos editados dentro de las 24 horas posteriores al vuelo.\nCada vuelo depende del clima y de las condiciones del lugar, y siempre queda a criterio del piloto.",
-      when: "Las sesiones se programan los fines de semana, sábados y domingos durante el día. Los archivos editados se entregan dentro de las 24 horas posteriores al vuelo. Envía una solicitud con tu fecha preferida y Fabrizzio te responderá para confirmar disponibilidad.",
-      weather: "Cada vuelo depende del clima, la ubicación y las condiciones del lugar, y la decisión de realizarlo queda siempre a criterio del piloto. Si un vuelo no puede realizarse, Fabrizzio buscará contigo otra opción.",
-      human: "Soy un asistente automático, no una persona. Para hablar con Fabrizzio, envía una solicitud aquí o escribe a {email} y te responderá personalmente.",
-      thanks: "¡De nada! ¿Puedo ayudarte con algo más?",
-      fallback: "Perdona, soy un asistente sencillo y no entendí bien. Puedo contarte sobre los paquetes, la zona de servicio o cómo funciona, o tomar tu solicitud para que Fabrizzio te responda por correo.",
+      packagesIntro: "Paquetes:",
+      pk_basic: "Aéreo Básico – $149: 10 fotos aéreas editadas, versión MLS, entrega en 24 h.",
+      pk_video: "Aéreo + Video – $279: Básico + video de 60 s con música (MLS + versión con marca para redes).",
+      pk_sunset: "Atardecer – $399: Aéreo + Video en la hora dorada + 3 fotos al atardecer.",
+      pk_wholesale: "Mayorista para fotógrafos – $110: 10 fotos aéreas sin marca a tu nombre, entrega en 24 h.",
+      area: "Schaumburg, Hoffman Estates, Palatine, Arlington Heights, Elk Grove Village, Rolling Meadows, Streamwood, Hanover Park y Roselle.",
+      townYes: "Sí, cubrimos {town}.",
+      how: "1. Envías una solicitud\n2. Agendamos un fin de semana, de día\n3. Volamos si el clima lo permite\n4. Archivos editados en 24 h tras el vuelo",
+      when: "Fines de semana, de día. Archivos en 24 h tras el vuelo.",
+      weather: "Los vuelos dependen del clima y del lugar, a criterio del piloto.",
+      human: "Soy un asistente automático. Envía una solicitud o escribe a {email} y te responderemos.",
+      thanks: "¡De nada!",
+      fallback: "Perdona, no entendí. Prueba con una de estas opciones:",
       more: "¿Algo más?",
       backendErr: "",
-      r_start: "Perfecto, preparemos tu solicitud. Puedes cancelar en cualquier momento. ¿Cómo te llamas?",
-      r_email: "¡Gracias, {name}! ¿Cuál es tu correo electrónico?",
-      r_emailBad: "Ese correo no parece válido. ¿Puedes revisarlo?",
-      r_phone: "¿Número de teléfono? (opcional)",
-      r_address: "¿Cuál es la dirección o ciudad de la propiedad?",
-      r_package: "¿Qué paquete te interesa?",
-      r_date: "¿Fin de semana preferido? Las sesiones se hacen los sábados y domingos durante el día. Es solo una preferencia, no una reserva.",
-      r_notes: "¿Algún detalle sobre la propiedad? (opcional)",
-      r_required: "Este dato es necesario para la solicitud.",
-      r_summary: "Esta es tu solicitud. Por favor, revísala:",
+      r_start: "¡Perfecto! ¿Tu nombre?",
+      r_email: "Gracias, {name}. ¿Tu correo?",
+      r_emailBad: "Ese correo no parece válido. ¿Otra vez?",
+      r_phone: "¿Teléfono? (opcional)",
+      r_address: "¿Dirección o ciudad de la propiedad?",
+      r_package: "¿Qué paquete?",
+      r_date: "¿Fin de semana preferido? (solo preferencia, no es una reserva)",
+      r_notes: "¿Algún detalle? (opcional)",
+      r_required: "Este dato es obligatorio.",
+      r_summary: "Tu solicitud:",
       r_sendBtn: "Enviar por correo", r_restart: "Empezar de nuevo", skip: "Omitir", cancel: "Cancelar",
-      r_done: "Tu aplicación de correo debería abrirse con la solicitud lista para enviar a {email}. Cuando la envíes, Fabrizzio te responderá para confirmar disponibilidad. No hay nada agendado hasta que él lo confirme.",
-      r_cancel: "Sin problema, la solicitud se canceló. ¿Puedo ayudarte con algo más?",
+      r_done: "¡Listo! Se abrirá tu correo con la solicitud. Te responderemos para confirmar disponibilidad.",
+      r_cancel: "Cancelado. ¿Algo más?",
       unsure: "Todavía no lo sé",
       L: { name: "Nombre", email: "Correo", phone: "Teléfono", address: "Propiedad", package: "Paquete", date: "Fecha preferida", notes: "Notas" },
       subject: "Solicitud de sesión – {address}",
@@ -171,13 +171,19 @@
 
   // ---------- Messages ----------
   var history = [];
-  function addMsg(who, text, extraClass) {
-    var b = document.createElement("div");
+  // Scroll ONLY the message list (never the window / scrollIntoView).
+  function scrollLog(el) {
+    var target = log.scrollHeight;
+    // a long bot answer: keep its first line in view instead of jumping past it
+    if (el && el.offsetHeight > log.clientHeight - 24) target = el.offsetTop - 12;
+    log.scrollTop = target;
+  }
+  function addMsg(who, text, extraClass, reuse) {
+    var b = reuse || document.createElement("div");
     b.className = "msg msg-" + who + (extraClass ? " " + extraClass : "");
     b.textContent = text;
-    log.appendChild(b);
-    // keep the start of long bot answers in view
-    log.scrollTop = who === "bot" ? Math.min(log.scrollHeight, b.offsetTop - 12) : log.scrollHeight;
+    if (!reuse) log.appendChild(b);
+    scrollLog(who === "bot" ? b : null);
     history.push({ who: who, text: text });
     return b;
   }
@@ -191,12 +197,13 @@
           typing.className = "msg msg-bot typing";
           typing.innerHTML = "<span></span><span></span><span></span>";
           log.appendChild(typing);
-          log.scrollTop = log.scrollHeight;
+          scrollLog(null);
         }
         setTimeout(function () {
-          if (typing) typing.remove();
-          if (text) addMsg("bot", text);
+          if (text) addMsg("bot", text, null, typing); // typing bubble turns into the message (no remove/re-add jump)
+          else if (typing) typing.remove();
           if (chips) renderChips(chips);
+          else setChipsBusy(false);
           resolve();
         }, quick ? 0 : 520);
       });
@@ -206,21 +213,25 @@
 
   // ---------- Chips ----------
   var currentChips = [];
-  function mainChips() { return ["packages", "area", "how", "request"]; }
+  function mainChips() { return ["request", "packages", "area", "how"]; }
   function chipLabel(id) {
     var map = { packages: "c_packages", area: "c_area", how: "c_how", request: "c_request",
       skip: "skip", cancel: "cancel", send: "r_sendBtn", restart: "r_restart" };
     if (id.indexOf("pkg:") === 0) return pkgLabel(id.slice(4));
     return t(map[id]);
   }
+  function setChipsBusy(on) { chipsBox.classList.toggle("busy", !!on); }
   function renderChips(ids) {
     currentChips = ids || [];
+    setChipsBusy(false);
+    chipsBox.scrollLeft = 0;
     chipsBox.innerHTML = "";
     currentChips.forEach(function (id) {
       var c = document.createElement("button");
       c.type = "button";
       c.className = "chip" + (id === "send" ? " chip-primary" : "");
       c.textContent = chipLabel(id);
+      c.addEventListener("mousedown", function (e) { e.preventDefault(); }); // keep focus where it is
       c.addEventListener("click", function () { choose(id); });
       chipsBox.appendChild(c);
     });
@@ -329,7 +340,7 @@
   function handleText(text) {
     if (!text.trim() && !(req && OPTIONAL[req.step])) return;
     addMsg("user", text.trim() || t("skip"));
-    renderChips([]);
+    setChipsBusy(true);
     if (req) { handleStepInput(text); return; }
     if (CHAT_BACKEND_URL && window.fetch) {
       askBackend(text).catch(function () { answer(text); });
@@ -340,7 +351,7 @@
 
   function choose(id, silent) {
     if (!silent) addMsg("user", chipLabel(id));
-    renderChips([]);
+    setChipsBusy(true);
     if (id === "packages") {
       bot(t("packagesIntro") + "\n• " + [t("pk_basic"), t("pk_video"), t("pk_sunset"), t("pk_wholesale")].join("\n• "), mainChips());
     } else if (id === "area") {
@@ -365,24 +376,64 @@
 
   // ---------- Open / close ----------
   var isOpen = false, greeted = false;
+  var root = document.documentElement;
+  var mqMobile = window.matchMedia ? window.matchMedia("(max-width: 599px)") : { matches: false };
+
+  // Mobile: lock the page behind the sheet (scroll position is preserved, no position:fixed jump)
+  function lockPage(on) {
+    root.classList.toggle("chat-lock", !!(on && mqMobile.matches));
+  }
+  // Older iOS ignores overflow:hidden on body: block touch scrolling outside the panel
+  document.addEventListener("touchmove", function (e) {
+    if (root.classList.contains("chat-lock") && !panel.contains(e.target)) e.preventDefault();
+  }, { passive: false });
+
+  // Keep the sheet inside the *visible* viewport when the on-screen keyboard opens
+  var vv = window.visualViewport, vvRaf = 0;
+  function fitToViewport() {
+    vvRaf = 0;
+    if (!isOpen || !mqMobile.matches || !vv) { panel.style.top = ""; panel.style.height = ""; panel.classList.remove("kb"); return; }
+    var keyboard = window.innerHeight - vv.height > 120;
+    if (keyboard) {
+      panel.classList.add("kb");
+      panel.style.top = Math.round(vv.offsetTop) + "px";
+      panel.style.height = Math.round(vv.height) + "px";
+    } else {
+      panel.classList.remove("kb");
+      panel.style.top = "";
+      panel.style.height = "";
+    }
+    scrollLog(null);
+  }
+  function queueFit() { if (!vvRaf) vvRaf = requestAnimationFrame(fitToViewport); }
+  if (vv) { vv.addEventListener("resize", queueFit); vv.addEventListener("scroll", queueFit); }
+  window.addEventListener("resize", queueFit);
+
+  input.addEventListener("focus", function () { root.classList.add("chat-typing"); queueFit(); });
+  input.addEventListener("blur", function () { root.classList.remove("chat-typing"); queueFit(); });
+
   function open() {
     isOpen = true;
     panel.hidden = false;
-    document.documentElement.classList.add("chat-open");
+    root.classList.add("chat-open");
+    lockPage(true);
+    queueFit();
     requestAnimationFrame(function () { panel.classList.add("show"); });
     fab.setAttribute("aria-expanded", "true");
     fab.setAttribute("aria-label", t("closeLabel"));
     if (!greeted) { greeted = true; bot(t("greet"), mainChips()); }
-    if (window.matchMedia && window.matchMedia("(min-width: 600px)").matches) setTimeout(function () { input.focus(); }, 50);
+    if (!mqMobile.matches) setTimeout(function () { input.focus({ preventScroll: true }); }, 50);
   }
   function close() {
     isOpen = false;
     panel.classList.remove("show");
-    document.documentElement.classList.remove("chat-open");
+    root.classList.remove("chat-open", "chat-typing");
+    lockPage(false);
+    queueFit();
     fab.setAttribute("aria-expanded", "false");
     fab.setAttribute("aria-label", t("openLabel"));
     setTimeout(function () { if (!isOpen) panel.hidden = true; }, quick ? 0 : 250);
-    fab.focus();
+    fab.focus({ preventScroll: true });
   }
   fab.addEventListener("click", function () { if (isOpen) close(); else open(); });
   panel.querySelector(".chat-close").addEventListener("click", close);
@@ -392,6 +443,7 @@
     var v = input.value;
     input.value = "";
     handleText(v);
+    if (document.activeElement !== input && !mqMobile.matches) input.focus({ preventScroll: true });
   });
   document.addEventListener("eem:langchange", applyLabels);
   applyLabels();

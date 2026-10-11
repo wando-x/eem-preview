@@ -303,6 +303,8 @@
   var ticking = false;
   function onScroll() {
     ticking = false;
+    // Pause scroll effects while the chat is being used (typing / mobile sheet open)
+    if (root.classList.contains("chat-typing") || root.classList.contains("chat-lock")) return;
     var y = window.pageYOffset || document.documentElement.scrollTop || 0;
     var max = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
     if (bar) bar.style.setProperty("--p", Math.min(1, y / max).toFixed(4));
